@@ -89,9 +89,39 @@ int main() {
 		break;
 	default:
 		cout << "you entered invalide number" << endl;
-
-
-    
 		break;
 	}
 }
+
+
+
+#include <iostream>
+using namespace std;
+int main() {
+	for (int week = 1; week <= 3; week++) {
+		cout << "week " << week << endl;
+		for (int day = 1; day <= 7; day++) {
+			cout << "	day " << day << endl;
+		}
+	}
+}
+
+
+#include <iostream>
+using namespace std;
+int main() {
+	int number;
+	int sum = 0;
+	cout << "enter a number: ";
+	cin >> number;
+	while (number >= 0) {
+		sum += number;
+		cout << "enter a number ";
+		cin >> number;
+		
+	}
+		cout << "\nsum number equal " << sum << endl;
+
+}
+
+
